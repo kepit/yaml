@@ -1,16 +1,12 @@
-# Yaml
-
-**TODO: Add description**
+# Elixir YAML Library
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
 
   1. Add `yaml` to your list of dependencies in `mix.exs`:
 
     ```elixir
     def deps do
-      [{:yaml, "~> 0.1.0"}]
+      [{:yaml, "~> 0.1.0", github: "kepit/yaml"}]
     end
     ```
 
@@ -21,4 +17,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
       [applications: [:yaml]]
     end
     ```
-
