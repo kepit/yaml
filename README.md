@@ -6,7 +6,7 @@
 
     ```elixir
     def deps do
-      [{:yaml, "~> 0.1.0", github: "kepit/yaml"}]
+      [{:yaml, github: "kepit/yaml"}]
     end
     ```
 
